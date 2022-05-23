@@ -1,54 +1,87 @@
+/*настройка общего текста*/
 body {
     font-family: Roboto:ital, wght @1,500 & display=swap" rel="stylesheet";
-    
 }
+
+/*настройка фотографии*/
+
 .SAKURA {
     height: 400px;
     border-radius: 24px;
     box-shadow: 4px 4px 14px rgba(0; 0; 0;025);
 }
 
+/*список видов сакуры*/
 .spisok {
     color: red;
     border-radius: 18px;
     padding:15px 43px ;
     background: skyblue;
+    border: 3px solid black;
     
 }
+
+
 .comments {
     background: white;
     padding: 5px 10px;
     border: 3px solid black;
+}
+
+.KNOPKA{
+    color: grey;
+    border: black;
+}
+
+KNOPKA: activ{
+    color: white;
+    background-color: black;
+}
     
+/*настройка фона*/    
 }
 .block {
     padding: 15px 20px;
     background="red"
     margin-bottom: 15px;
+    
+    
 }
 .bg-lightgreen {
     background: lightgreen;
     padding-bottom: 0px;
     border-radius: 15px;
+    border: 3px solid black;
+    
+    
 }
 .kartinka {
     background: green;
     padding: 50px;
     border-radius: 15px;
+    border: 3px solid black;
 }
+
+
 .korobka{
     background: pink;
     border-radius: 18px;
+    border: 3px solid black;
 }
+
+
 .konets{
     background: orange;
     border-radius: 15px;
     padding: 50px;
     padding-bottom: 0px;
+    border: 3px solid black;
 }
+
+/*Настройка ссылок*/
 a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 a:hover{
     text-decoration: underline;
@@ -59,3 +92,22 @@ a: activ{
 a: visited {
     color: red;
 }
+
+/*кнопка отправки сообщений*/
+.login-submit {
+  text-decoration: none;
+  text-align: center;
+  padding: 1px 55px;
+  border: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  font: 20px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  background: skyblue;
+  -webkit-box-shadow: inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: inset 0px 0px 1px #ffffff;
+  box-shadow: inset 0px 0px 1px #ffffff;
+}
+
